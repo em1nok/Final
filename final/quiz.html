@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image\icon.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylequiz.css">
+    <title> Quiz</title>
+</head>
+<body>
+<!-- Bootstrap Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">ARMY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bts.html">BTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="quiz.html">Quiz</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="quiz-container">
+    <h1>Selebrety life of BTS Quiz</h1>
+    <form id="quiz-form">
+        <div class="q1">
+            <p>1. In what year was BTS founded?</p>
+            <input type="radio" name="q1" value="a1"> A. 2020<br>
+            <input type="radio" name="q1" value="b1"> B. 2014<br>
+            <input type="radio" name="q1" value="c1"> C. 2013<br>
+        </div>
+        <div class="q2">
+            <p>2. ARMY is ...???</p>
+            <input type="radio" name="q2" value="a2"> A. Always Remembering My Youth<br>
+            <input type="radio" name="q2" value="b2"> B. Always Remindering Members Young<br>
+            <input type="radio" name="q2" value="c2"> C. All Real Memories with You<br>
+        </div>
+        <div class="q3">
+            <p>3. '...more than 50 millionfollowing posts on Twitter and on the official Big Hit Instagram account.'is it true or not?</p>
+            <input type="radio" name="q3" value="a3"> A. True<br>
+            <input type="radio" name="q3" value="b3"> B. False<br>
+        </div>
+        <div class="q4">
+            <p>4. How many members are in the group?</p>
+            <input type="radio" name="q4" value="a4"> A. 6<br>
+            <input type="radio" name="q4" value="b4"> B. 7<br>
+            <input type="radio" name="q4" value="c4"> C. 8<br>
+        </div>
+        <div class="q5">
+            <p>5.When is the birthday of Jungkook?</p>
+            <input type="radio" name="q5" value="a5"> A. Sept 1<br>
+            <input type="radio" name="q5" value="b5"> B. Nov 1<br>
+            <input type="radio" name="q5" value="c5"> C. Des 1<br>
+        </div>
+        <div class="q6">
+            <p>6.Who is the leader of the group?</p>
+            <input type="radio" name="q6" value="a6"> A. V<br>
+            <input type="radio" name="q6" value="b6"> B. Suga<br>
+            <input type="radio" name="q6" value="c6"> C. RM<br>
+        </div>
+        <div class="q7">
+            <p>7.Who is the Maknae of the group?</p>
+            <input type="radio" name="q7" value="a7"> A. V<br>
+            <input type="radio" name="q7" value="b7"> B. Jimin <br>
+            <input type="radio" name="q7" value="c7"> C. Jungkook<br>
+        </div>
+        <div class="q8">
+            <p>8.'Are all BTS members leaving for military service?'When was this article published?</p>
+            <input type="radio" name="q8" value="a8"> A. November 24<br>
+            <input type="radio" name="q8" value="b8"> B. November 20 <br>
+            <input type="radio" name="q8" value="c8"> C. October 31<br>
+        </div>
+
+        <input type="button" value="Submit" onclick="submitQuiz()">
+    </form>
+    <div id="result-container"></div>
+</div>
+
+
+<script src="script.js"></script>
+  </body>
+  </html>
